@@ -1,3 +1,4 @@
+const Octokit = require("@octokit/rest");
 require('dotenv').config()
 const api = require('covidapi'),
 	table = require('text-table'),
